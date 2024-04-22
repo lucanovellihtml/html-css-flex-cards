@@ -1,0 +1,29 @@
+/* STYLE BODY AND ROLE */
+body {
+    font-family: "Fredoka", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------  */
+
+
+
+/* STYLE HEADER */
+.class-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: green;
+}
+
+.class-header h1 {
+    color: red;
+}
+
+/* ------------------  */
