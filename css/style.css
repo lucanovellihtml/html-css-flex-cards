@@ -88,31 +88,4 @@ main {
     color: aquamarine;
 }
 
-/*
-.class-image {
-    width: 30%;
-}
-
-.box-flex-titles {
-    background-color: red;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: start;
-}
-
-.box-flex-titles h2 {
-    font-size: 20px;
-}
-
-.box-flex-titles h3 {
-    font-size: 15px;
-    font-weight: normal;
-}
-
-.box-flex-titles p {
-    font-size: 13px;
-    color: rgb(89, 166, 253);
-}*/
-
 /* ------------------  */
