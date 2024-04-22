@@ -19,7 +19,6 @@ body {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: green;
 }
 
 .class-header h1 {
@@ -31,6 +30,10 @@ body {
 
 
 /* STYLE MAIN */
+main {
+    text-align: center;
+}
+
 .box-flex-main {
     display: flex;
     flex-direction: column;
@@ -39,8 +42,77 @@ body {
 }
 
 #paragraph-main {
-    width: 70%;
     text-align: center;
+    width: 80%;
 }
+
+.box-flex-main-imgs {
+    display: flex;
+    width: 66%;
+    flex-wrap: wrap;
+}
+
+.box-img {
+    display: flex;
+    color: white;
+    background-color: black;
+    width: calc(100% / 3 - 30px);
+    height: 80px;
+    margin: 15px;
+}
+
+.image {
+    height: 80px;
+}
+
+.box-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 10px;
+    justify-content: center;
+    gap: 5px;
+}
+
+.box-paragraph h2 {
+    font-size: 17px;
+}
+
+.box-paragraph h3 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.box-paragraph p {
+    font-size: 15px;
+    color: aquamarine;
+}
+
+/*
+.class-image {
+    width: 30%;
+}
+
+.box-flex-titles {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.box-flex-titles h2 {
+    font-size: 20px;
+}
+
+.box-flex-titles h3 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.box-flex-titles p {
+    font-size: 13px;
+    color: rgb(89, 166, 253);
+}*/
 
 /* ------------------  */
