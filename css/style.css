@@ -27,3 +27,20 @@ body {
 }
 
 /* ------------------  */
+
+
+
+/* STYLE MAIN */
+.box-flex-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#paragraph-main {
+    width: 70%;
+    text-align: center;
+}
+
+/* ------------------  */
